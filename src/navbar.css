@@ -1,0 +1,33 @@
+.navbar-width{
+    max-width : 1200px;
+    margin : auto
+}
+
+
+.bg-img{
+    height : 120vh;
+    width : 100%;
+    object-fit : cover;
+    filter : brightness(0.6);
+    position : absolute;
+    top : 0;
+    left : 0;
+    z-index : -1;
+}
+
+.dark-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* position: relative; */
+}
+.navbar-toggler:focus{
+    box-shadow : 0 0 0 0
+}
+.navbar-dark .navbar-toggler{
+    color : transparent;
+    border-color : transparent;
+}
+@media screen and (max-width:768px){
+    .mobile-nav{
+        display : none;
+    }
+}

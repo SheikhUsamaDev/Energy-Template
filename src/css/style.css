@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.footer-card{
+    color: white;    
+    position: absolute;
+    left: 24%;
+    background: black;
+    padding: 30px 60px;
+    top: -70px;
+    border-radius: 15px;
+    width: 53%;
+}.bg-color{
+    position: relative;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+    z-index: -1;
+}
+.logo h1{
+    font-size: 70px;
+    color: white;
+}
+.footer-sec{
+    background-color: black ;
+}
+.text-clr{
+    color: green;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.head h2{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.paragraph p{
+    font-family: sans-serif;
+    color: gray;
+}
+.input{
+    position: relative;
+}
+.input input{
+    width: 100%;
+    padding: 9px 20px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.info-btn{
+    position: absolute;
+    top: 0px;
+    left: 76%;
+}
+.info-btn button{
+    border: none;
+    outline: none;
+    background: green;
+    padding: 11px 15px;
+    width: 100%;
+    border-radius: 7px;
+}
+.text p{
+ color: gray;
+ text-align: end;
+ padding: 15px 0px;
+}
+.footer{
+    margin-top: 20%;
+}
+.quick-link{
+    color: gray;
+}
+.links a{
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 8px 0px;
+}
+.links{
+    display: grid;
+    padding-top: 30px;
+}
+.contact-txt{
+    color: gray;
+    font-family: sans-serif;
+    font-size:17px ;
+    padding-top: 30px;
+}
+.contact-txt p{
+    padding: 8px 0px;
+}
+.text-input{
+    padding-top: 40px;
+    position: relative;
+}
+.text-input input{
+    border: none;
+    outline: none;
+    padding: 11px 21px;
+    width: 80%;
+    border-radius: 10px;
+}
+.Subscribe-btn{
+    position: absolute;
+    left: 177px;
+    top: 43px;
+}
+.Subscribe-btn button{
+border: none;
+background-color: green;
+outline: none;
+padding: 8px 17px;
+border-radius: 10px;
+}
+.card-section{
+    position: absolute;
+    bottom: 380px;
+    left: 200px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner-img {
+    width: 100%;
+  }
+  
+  @media (max-width: 1000px) {
+    .banner-img {
+      display: none;
+    }
+  }
+  
+  
+
+
+
+
+
+

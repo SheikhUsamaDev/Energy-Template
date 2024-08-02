@@ -1,0 +1,19 @@
+/* src/components/About.css */
+.about-section {
+    padding: 50px 0;
+    background: #222;
+    
+  }
+  .about-heading{
+    font-size: 40px;
+  }
+  .info-box {
+    background: white;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    bottom: 120px;
+    max-width: 500px;
+  }
+  

@@ -1,0 +1,194 @@
+.testimonials-section {
+  background-color: #1f1f1f;
+  
+}
+
+.testimonials-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.heading-container {
+  flex: 1;
+}
+
+.header-title {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.image-container {
+  flex: 1;
+  max-width: 200px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
+.slider-container {
+  margin-top: 50px;
+}
+
+.testimonial-card {
+  padding: 0 15px;
+}
+
+.card-content {
+  background-color: #2f2f2f;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.testimonial-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-name {
+  color: white;
+  margin: 0;
+}
+
+.testimonial-handle {
+  color: gray;
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.star-icon {
+  color: yellow;
+}
+
+.rating {
+  color: white;
+}
+
+.testimonial-text {
+  color: white;
+  margin-top: 15px;
+}
+
+.faq-section {
+  margin-top: 50px;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faq-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.faq-img {
+  width: 100%;
+  height: auto;
+}
+
+.faq-content {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.faq-title {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+h2{
+  font-size: 20px;
+  color: rgba(130, 131, 133, 0.733);
+}
+.accordion-item {
+  margin-bottom: 15px;
+  background: transparent;
+  border: none;
+}
+/* .accordion-item:first-of-type {
+  background: transparent;
+  border: none;
+} */
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: white;
+}
+
+.accordion-content {
+  color: white;
+  margin-top: 10px; 
+}
+
+.accordion-content p {
+  margin: 0;
+}
+
+hr {
+  border-color: gray;
+}
+
+@media (max-width: 768px) {
+  .testimonials-head {
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin-top: 20px;
+  }
+
+  .faq-container {
+    flex-direction: column;
+  }
+
+  .faq-image,
+  .faq-content {
+    max-width: 100%;
+  }
+
+  .faq-content {
+    margin-top: 20px;
+  }
+
+  .card-header{
+    padding: 0px;
+    flex-wrap: wrap; 
+  }
+  .card-content{
+    padding: 15px 10px;
+  }
+}

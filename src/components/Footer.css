@@ -1,0 +1,133 @@
+/* src/components/Footer.css */
+
+/* .footer-sec {
+    background: #222;
+    color: white;
+    padding: 40px 0;
+} */
+
+.bg-color {
+    background: #111;
+  
+}
+
+.footer-card {
+    background: url('../images/images.webp');
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.text-clr {
+    color: #00ff00; /* Change to your desired color */
+}
+
+.paragraph p {
+    color: #ccc;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input input {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.info-btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #00ff00; /* Change to your desired color */
+    color: white;
+}
+
+.text p {
+    color: #999;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #111;
+    padding: 40px 0;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo1 h6 {
+    margin-left: 10px;
+}
+
+.quick-link h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    color: #ccc;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #00ff00; /* Change to your desired color */
+}
+
+.contact-txt p {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.text-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-input input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+}
+
+.Subscribe-btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #00ff00; /* Change to your desired color */
+    color: white;
+}
+.d-flex{
+    /* padding: 30px 0px; */
+}
+
+@media screen and (max-width:768px){
+    .footer{
+        text-align: center;
+    }
+}
